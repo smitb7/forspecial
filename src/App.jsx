@@ -326,7 +326,7 @@ export default function App() {
           <SpecialDate />
           <div className="welcome-divider"><span /><Heart /><span /></div>
           <p className="welcome-prompt">Ready to take a little trip through <br className="desktop-break" />the beginning of our story?</p>
-          <button className="primary-button" onClick={startStory}>Let's begin <span>↗</span></button>
+          <button className="primary-button" onClick={startStory}>Let's begin <span></span></button>
           <p className="footnote">A small reminder that you are so, so wonderful.</p>
         </section>
       )}
@@ -384,7 +384,7 @@ export default function App() {
                 <button className="answer-option" key={answer} onClick={() => answerQuiz(index)}>
                   <span className="answer-letter">{String.fromCharCode(65 + index)}</span>
                   <span>{answer}</span>
-                  <span className="answer-arrow">↗</span>
+                  <span className="answer-arrow"></span>
                 </button>
               ))}
             </div>
