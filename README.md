@@ -40,21 +40,4 @@ photo: '/our-first-trip.jpg',
 
 The image will show in that story card. Keep image files inside the `public` folder.
 
-## Deploy it free
 
-### Vercel
-1. Push this folder to a GitHub repository.
-2. Go to https://vercel.com/ and import the repository.
-3. Vercel should detect Vite automatically. Build command: `npm run build`; output directory: `dist`.
-4. Click **Deploy** and share the generated URL with your wife.
-
-### Netlify
-1. Push the folder to GitHub and import it at https://app.netlify.com/.
-2. Build command: `npm run build`
-3. Publish directory: `dist`
-4. Deploy the site and share the URL.
-
-## Notes
-- No backend or API key is required.
-- The text and interactions work without adding photos.
-- Google Fonts are used for the typography; if the device is offline, fallback fonts will be used.
